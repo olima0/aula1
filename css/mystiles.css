@@ -4,3 +4,21 @@ h1{
 .center{
     color: blue;
 }
+h2,h3,h4,h5,h6{
+    display: none;
+}
+
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2rem;
+    color: navy;
+    font: italic bold 1rem monospace;
+    text-shadow: 0.1rem 0.2rem 0.3rem black 0 0 1rem darkblue 0 0 1rem blue;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: green;
+
+}
